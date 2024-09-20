@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Recipe page</title>
 
@@ -35,13 +39,13 @@
           </h2>
           
           <li>
-            Total: Approximately 10 minutes
+            <span>Total:</span> Approximately 10 minutes
           </li>
           <li>
-            Preparation: 5 minutes
+            <span>Preparation:</span> 5 minutes
           </li>
-          <li class="last-list">
-            Cooking: 5 minutes
+          <li>
+            <span>Cooking:</span> 5 minutes
           </li>
         </section>
     
@@ -105,17 +109,27 @@
             The table below shows nutritional values per serving without the additional fillings.
           </p>
     
-          Calories
-          277kcal
-    
-          Carbs
-          0g
-    
-          Protein
-          20g
-    
-          Fat
-          22g
+          <table>
+            <div>
+              Calories
+              277kcal
+            </div>
+      
+            <div>
+              Carbs
+              0g
+            </div>
+      
+            <div>
+              Protein
+              20g
+            </div>
+      
+            <div>
+              Fat
+              22g
+            </div>
+          </table>
         </section>
       </main>
     </div>

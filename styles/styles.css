@@ -3,8 +3,19 @@ h2 {
   padding: 0px;
 }
 
+ul {
+  padding-left: 0px;
+  margin: 0px;
+}
+
 ol {
   margin: 0px;
+  padding-left: 0px;
+}
+
+span {
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
 }
 
 article {
@@ -41,6 +52,7 @@ header {
 }
 
 .preparation-time-section {
+  color: hsl(30, 10%, 34%);
   background-color: hsl(330, 100%, 98%);
 
   padding: 20px 30px;
@@ -49,19 +61,30 @@ header {
 }
 
 .preparation-time-header {
-  color: hsl(332, 51%, 32%)
+  color: hsl(332, 51%, 32%);
+
+  padding-bottom: 10px;
 }
 
 .preparation-time-section li {
-  margin: 10px 0px;
+  margin: 10px 8px;
 }
 
 .ingredients-section {
+  color: hsl(30, 10%, 34%);
   padding: 30px 0;
+
+  border-bottom: solid 1px ;
 }
 
 .ingredients-header {
   color: hsl(14, 45%, 36%);
+
+  padding-bottom: 10px;
+}
+
+.ingredients-section li {
+  padding: 8px 8px 0px;
 }
 
 .instructions-section {
@@ -70,6 +93,12 @@ header {
 
 .instructions-header {
   color:hsl(14, 45%, 36%);
+
+  padding-bottom: 10px;
+}
+
+.instructions-section li {
+  padding: 8px 8px 0px;
 }
 
 .nutrition-section {
@@ -77,17 +106,19 @@ header {
   padding-bottom: 0;
 }
 
+.nutrition-section p {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
 .nutrition-header {
   color:hsl(14, 45%, 36%);
+
+  padding-bottom: 10px;
 }
 
-ul {
-  padding-left: 0px;
-  margin: 0px;
-}
-
-ol {
-  padding-left: 0px;
+table {
+  padding: 10px 15px;
 }
 
 .attribution { 
