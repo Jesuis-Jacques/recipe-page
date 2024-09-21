@@ -24,13 +24,13 @@ h2 {
 }
 
 ul {
-  padding-left: 0px;
+  padding-left: 20px;
   margin: 0px;
 }
 
 ol {
   margin: 0px;
-  padding-left: 10px;
+  padding-left: 20px;
 
   list-style-type: decimal;
 }
@@ -90,7 +90,7 @@ header {
 }
 
 .preparation-time-header {
-  font-size: 18px;
+  font-size: 16px;
   
   color: hsl(332, 51%, 32%);
 
@@ -111,6 +111,7 @@ header {
 
 .ingredients-header {
   font-family: "young serif";
+  font-weight: 400;
   color: hsl(14, 45%, 36%);
 
   padding-bottom: 10px;
@@ -129,6 +130,7 @@ header {
 
 .instructions-header {
   font-family: "young serif";
+  font-weight: 400;
   color:hsl(14, 45%, 36%);
 
   padding-bottom: 10px;
@@ -153,6 +155,7 @@ header {
 
 .nutrition-header {
   font-family: "young serif";
+  font-weight: 400;
   color:hsl(14, 45%, 36%);
 
   padding-bottom: 10px;
@@ -168,10 +171,6 @@ table {
   justify-content: space-between;
   
   overflow: hidden;
-}
-
-table tr td {
-  
 }
 
 table td {
