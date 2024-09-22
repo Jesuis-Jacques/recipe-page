@@ -57,7 +57,7 @@ article {
   margin-bottom: 100px;
   padding: 25px;
 
-  max-width: 400px;
+  max-width: 580px;
 
   background-color: hsl(0, 0%, 100%);
 }
@@ -156,7 +156,7 @@ header {
 
 .instructions-header {
   font-family: "young serif";
-  font-weight: 600;
+  font-weight: 400;
   color:hsl(14, 45%, 36%);
 
   padding-bottom: 10px;
@@ -207,6 +207,15 @@ table td {
   font-size: 14px;
 }
 
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+table, tr, td {
+  width: 100%;
+}
+
 .measurement {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
@@ -248,14 +257,9 @@ table td {
     margin: auto 30px;
   }
 
-  table {
-    width: 100%;
-
-    justify-content: space-between;
-  }
-
-  table, tr, td {
-    width: 100%;
+  tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   td {
@@ -269,7 +273,8 @@ table td {
     max-width: 100vw;
   }
 
-  table,tr, td {
-    width: 100%;
+  tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
