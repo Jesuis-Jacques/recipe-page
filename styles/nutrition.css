@@ -20,29 +20,20 @@
 table {
   
   width: 100%;
-
-  table-layout: fixed;
-
-  display: flex;
-  justify-content: space-between;
   
-  overflow: hidden;
 }
 
 table td {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  padding: 10px 150px 10px 25px;
+  padding: 10px 0px 10px 25px;
 
   font-size: 14px;
+
 }
 
 tr {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-table, tr, td {
-  width: 100%;
 }
 
 .measurement {

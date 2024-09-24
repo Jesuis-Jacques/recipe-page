@@ -79,9 +79,6 @@ header {
     grid-template-columns: 1fr 1fr;
   }
 
-  table, tr, td {
-    width: 100%;
-  }
 }
 
 @media (max-width: 319px) {
