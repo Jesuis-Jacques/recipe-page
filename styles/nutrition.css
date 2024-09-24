@@ -30,9 +30,8 @@ table {
 }
 
 table td {
-  width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  padding: 10px 180px 10px 25px;
+  padding: 10px 150px 10px 25px;
 
   font-size: 14px;
 }
