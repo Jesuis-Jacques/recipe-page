@@ -24,8 +24,8 @@ This is a webpage that shows a recipe page solution for a simple Omelette using 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Jesuis-Jacques/recipe-page.git)
+- Live Site URL: [Add live site URL here](https://jesuis-jacques.github.io/recipe-page/)
 
 ## My process
 - Firstly, I downloaded the required starting files for the project.
